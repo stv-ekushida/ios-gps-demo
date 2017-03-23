@@ -1,6 +1,7 @@
 # ios-gps-demo
 
 ## Table Of Contents
+ターゲットをios-gps-demo(FAKE)を選択して実行すると、FakeLocationUtilが呼ばれる
 
 | クラス名 | 説明 |
 |---|---|
