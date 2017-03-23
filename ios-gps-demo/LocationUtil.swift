@@ -10,33 +10,39 @@ import UIKit
 import CoreLocation
 
 protocol GpsDelegate {
-    func updateLocation(lat: CLLocationDegrees, lng: CLLocationDegrees)
+    func updateLocation(lat: Double, lng: Double)
 }
 
 final class LocationUtil: NSObject {
 
     let locationManager = CLLocationManager()
     var delegete: GpsDelegate?
-
+    
     func setup() {
-
+        
         locationManager.delegate = self
-
-        // 取得精度の設定.
-        locationManager.desiredAccuracy = kCLLocationAccuracyBest
-
-        // 取得頻度の設定.
-        locationManager.distanceFilter = 100
-
+        updatedesiredAccuracy(desiredAccuracy: kCLLocationAccuracyBest)
+        updateDistanceFilter(distanceFilter: 100.0)
+        
         let status = CLLocationManager.authorizationStatus()
-
+        
         if(status == .notDetermined) {
             locationManager.requestWhenInUseAuthorization()
         }
     }
-
+    
     func start() {
         locationManager.startUpdatingLocation()
+    }
+    
+    /// 取得精度を設定する
+    func updatedesiredAccuracy(desiredAccuracy: CLLocationAccuracy) {
+        locationManager.desiredAccuracy = desiredAccuracy
+    }
+    
+    /// 取得頻度を設定する
+    func updateDistanceFilter(distanceFilter: CLLocationDistance) {
+        locationManager.distanceFilter = distanceFilter
     }
 }
 

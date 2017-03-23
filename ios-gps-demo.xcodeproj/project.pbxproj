@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BCE16FB11E825E5B00F5EC07 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE16FB01E825E5A00F5EC07 /* ViewControllerTests.swift */; };
+		BCE16FBC1E83501200F5EC07 /* FakeLocationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE16FBB1E83501200F5EC07 /* FakeLocationUtil.swift */; };
 		C5CA05411E123B0B00B8F494 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CA05401E123B0B00B8F494 /* AppDelegate.swift */; };
 		C5CA05431E123B0B00B8F494 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CA05421E123B0B00B8F494 /* ViewController.swift */; };
 		C5CA05461E123B0B00B8F494 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5CA05441E123B0B00B8F494 /* Main.storyboard */; };
 		C5CA05481E123B0B00B8F494 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5CA05471E123B0B00B8F494 /* Assets.xcassets */; };
 		C5CA054B1E123B0B00B8F494 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5CA05491E123B0B00B8F494 /* LaunchScreen.storyboard */; };
-		C5CA05561E123B0C00B8F494 /* ios_gps_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CA05551E123B0C00B8F494 /* ios_gps_demoTests.swift */; };
 		C5CA05621E123B2100B8F494 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5CA05611E123B2100B8F494 /* CoreLocation.framework */; };
 		C5CA05641E123BE300B8F494 /* LocationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CA05631E123BE300B8F494 /* LocationUtil.swift */; };
 /* End PBXBuildFile section */
@@ -28,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BCE16FB01E825E5A00F5EC07 /* ViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		BCE16FB91E834F1100F5EC07 /* Info-fake.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-fake.plist"; sourceTree = "<group>"; };
+		BCE16FBB1E83501200F5EC07 /* FakeLocationUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeLocationUtil.swift; sourceTree = "<group>"; };
 		C5CA053D1E123B0B00B8F494 /* ios-gps-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-gps-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5CA05401E123B0B00B8F494 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5CA05421E123B0B00B8F494 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,7 +40,6 @@
 		C5CA054A1E123B0B00B8F494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5CA054C1E123B0B00B8F494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5CA05511E123B0C00B8F494 /* ios-gps-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-gps-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5CA05551E123B0C00B8F494 /* ios_gps_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_gps_demoTests.swift; sourceTree = "<group>"; };
 		C5CA05571E123B0C00B8F494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5CA05611E123B2100B8F494 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		C5CA05631E123BE300B8F494 /* LocationUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationUtil.swift; sourceTree = "<group>"; };
@@ -61,6 +64,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BCE16FAF1E825E4800F5EC07 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BCE16FB01E825E5A00F5EC07 /* ViewControllerTests.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BCE16FB21E82749500F5EC07 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C5CA05421E123B0B00B8F494 /* ViewController.swift */,
+				C5CA05441E123B0B00B8F494 /* Main.storyboard */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BCE16FB31E8274A200F5EC07 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C5CA05631E123BE300B8F494 /* LocationUtil.swift */,
+				BCE16FBB1E83501200F5EC07 /* FakeLocationUtil.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
 		C5CA05341E123B0B00B8F494 = {
 			isa = PBXGroup;
 			children = (
@@ -84,12 +113,12 @@
 			isa = PBXGroup;
 			children = (
 				C5CA05401E123B0B00B8F494 /* AppDelegate.swift */,
-				C5CA05421E123B0B00B8F494 /* ViewController.swift */,
-				C5CA05441E123B0B00B8F494 /* Main.storyboard */,
 				C5CA05471E123B0B00B8F494 /* Assets.xcassets */,
-				C5CA05491E123B0B00B8F494 /* LaunchScreen.storyboard */,
+				BCE16FB21E82749500F5EC07 /* Controllers */,
+				BCE16FB91E834F1100F5EC07 /* Info-fake.plist */,
 				C5CA054C1E123B0B00B8F494 /* Info.plist */,
-				C5CA05631E123BE300B8F494 /* LocationUtil.swift */,
+				C5CA05491E123B0B00B8F494 /* LaunchScreen.storyboard */,
+				BCE16FB31E8274A200F5EC07 /* Utils */,
 			);
 			path = "ios-gps-demo";
 			sourceTree = "<group>";
@@ -97,7 +126,7 @@
 		C5CA05541E123B0C00B8F494 /* ios-gps-demoTests */ = {
 			isa = PBXGroup;
 			children = (
-				C5CA05551E123B0C00B8F494 /* ios_gps_demoTests.swift */,
+				BCE16FAF1E825E4800F5EC07 /* Controller */,
 				C5CA05571E123B0C00B8F494 /* Info.plist */,
 			);
 			path = "ios-gps-demoTests";
@@ -217,6 +246,7 @@
 			files = (
 				C5CA05431E123B0B00B8F494 /* ViewController.swift in Sources */,
 				C5CA05641E123BE300B8F494 /* LocationUtil.swift in Sources */,
+				BCE16FBC1E83501200F5EC07 /* FakeLocationUtil.swift in Sources */,
 				C5CA05411E123B0B00B8F494 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,7 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5CA05561E123B0C00B8F494 /* ios_gps_demoTests.swift in Sources */,
+				BCE16FB11E825E5B00F5EC07 /* ViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +289,86 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		BCE16FB61E834EDE00F5EC07 /* Fake */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"FAKE=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DFAKE";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Fake;
+		};
+		BCE16FB71E834EDE00F5EC07 /* Fake */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UE5DCQPTRB;
+				GCC_PREPROCESSOR_DEFINITIONS = FAKE;
+				INFOPLIST_FILE = "ios-gps-demo/Info-fake.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_SWIFT_FLAGS[arch=*]" = "-DFAKE";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-gps-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Fake;
+		};
+		BCE16FB81E834EDE00F5EC07 /* Fake */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ios-gps-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-gps-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-gps-demo.app/ios-gps-demo";
+			};
+			name = Fake;
+		};
 		C5CA05581E123B0C00B8F494 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -413,6 +523,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5CA05581E123B0C00B8F494 /* Debug */,
+				BCE16FB61E834EDE00F5EC07 /* Fake */,
 				C5CA05591E123B0C00B8F494 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -422,17 +533,21 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5CA055B1E123B0C00B8F494 /* Debug */,
+				BCE16FB71E834EDE00F5EC07 /* Fake */,
 				C5CA055C1E123B0C00B8F494 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5CA055D1E123B0C00B8F494 /* Build configuration list for PBXNativeTarget "ios-gps-demoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5CA055E1E123B0C00B8F494 /* Debug */,
+				BCE16FB81E834EDE00F5EC07 /* Fake */,
 				C5CA055F1E123B0C00B8F494 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
