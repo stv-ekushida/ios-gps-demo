@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ios-gps-demoTests/ViewControllerTests.swift"
+            timestampString = "511866535.119088"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "testViewDidLoad_desiredAccuracy_WhenLocationAccuracuyBest()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ios_gps_demoTests.ViewControllerTests.testViewDidLoad_desiredAccuracy_WhenLocationAccuracuyBest () -&gt; ()"
+                  moduleName = "ios-gps-demoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ekushida/Documents/99_github/ios-gps-demo/ios-gps-demoTests/ViewControllerTests.swift"
+                  timestampString = "511861672.138947"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "211">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ios_gps_demoTests.ViewControllerTests.(testViewDidLoad_desiredAccuracy_WhenLocationAccuracuyBest () -&gt; ()).(implicit closure #1)"
+                  moduleName = "ios-gps-demoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ekushida/Documents/99_github/ios-gps-demo/ios-gps-demoTests/ViewControllerTests.swift"
+                  timestampString = "511861672.141375"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ios_gps_demoTests.ViewControllerTests.(testViewDidLoad_desiredAccuracy_WhenLocationAccuracuyBest () -&gt; ()).(implicit closure #2)"
+                  moduleName = "ios-gps-demoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ekushida/Documents/99_github/ios-gps-demo/ios-gps-demoTests/ViewControllerTests.swift"
+                  timestampString = "511861672.143826"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ios-gps-demo/ViewController.swift"
+            timestampString = "511923456.484056"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ios_gps_demo.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; ios_gps_demo.ViewController"
+                  moduleName = "ios-gps-demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ekushida/Documents/99_github/ios-gps-demo/ios-gps-demo/ViewController.swift"
+                  timestampString = "511923626.611147"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ios_gps_demo.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;ios_gps_demo.ViewController&gt;"
+                  moduleName = "ios-gps-demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ekushida/Documents/99_github/ios-gps-demo/ios-gps-demo/ViewController.swift"
+                  timestampString = "511923626.615742"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ios-gps-demo/FakeLocationUtil.swift"
+            timestampString = "511923464.203693"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "start()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
