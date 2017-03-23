@@ -6,6 +6,13 @@
 | XCode | 8.2 |
 | iOS | 10.0〜 |
 
+## Table Of Contents
+
+| クラス名 | 説明 |
+|---|---|
+| LocationUtil | 位置情報を取得するクラス郡 |
+| FakeLocationUtil | 位置情報を取得するクラス郡（東京タワーの位置情報を静的に返す） |
+
 #### 備忘録
 1. CoreLocation.frameworkを追加する
 2. Info.plistにNSLocationAlwaysUsageDescriptionとNSLocationWhenInUseUsageDescriptionを追加する
