@@ -5,7 +5,7 @@
 | クラス名 | 説明 |
 |---|---|
 | LocationUtil | 位置情報を取得するクラス郡 |
-| FakeLocationUtil | 位置情報を取得するクラス郡（東京タワーの位置情報を静的に返す） |
+| [FakeLocationUtil](https://github.com/stv-ekushida/ios-gps-demo/blob/master/ios-gps-demo/FakeLocationUtil.swift) | 位置情報を取得するクラス郡（東京タワーの位置情報を静的に返す） |
 
 ## 備忘録
 1. CoreLocation.frameworkを追加する
