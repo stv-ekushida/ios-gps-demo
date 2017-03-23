@@ -32,5 +32,9 @@ extension ViewController: GpsDelegate {
         
         print(lat,lng)
     }
+    
+    func failure(error: Error) {
+        print(error.localizedDescription)
+    }
 }
 

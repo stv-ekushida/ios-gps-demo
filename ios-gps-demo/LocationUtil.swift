@@ -11,6 +11,7 @@ import CoreLocation
 
 protocol GpsDelegate {
     func updateLocation(lat: Double, lng: Double)
+    func failure(error: Error)
 }
 
 final class LocationUtil: NSObject {
@@ -63,6 +64,6 @@ extension LocationUtil: CLLocationManagerDelegate {
 
     func locationManager(_ manager: CLLocationManager,
                          didFailWithError error: Error){
-        print("error")
+        delegete?.failure(error: error)
     }
 }
